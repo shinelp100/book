@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2851fc8d-af2a-4b51-8d51-ac30eb55dbed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ES6/1.3.md" afterPath="$PROJECT_DIR$/ES6/1.3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,12 +83,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <first_editor relative-caret-position="145">
+                <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -122,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.3.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.3.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ES6/1.3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -150,11 +150,11 @@
         <option value="$PROJECT_DIR$/_book/search_index.json" />
         <option value="$PROJECT_DIR$/chapter1/1.1.md" />
         <option value="$PROJECT_DIR$/ES6/README.md" />
-        <option value="$PROJECT_DIR$/SUMMARY.md" />
         <option value="$PROJECT_DIR$/ES6/1.1.md" />
         <option value="$PROJECT_DIR$/ES6/1.2.md" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/1.2.md" />
         <option value="$PROJECT_DIR$/ES6/1.3.md" />
+        <option value="$PROJECT_DIR$/SUMMARY.md" />
       </list>
     </option>
   </component>
@@ -322,7 +322,7 @@
       <workItem from="1487901481047" duration="4362000" />
       <workItem from="1488157841064" duration="4846000" />
       <workItem from="1488246858697" duration="8534000" />
-      <workItem from="1488336561998" duration="45000" />
+      <workItem from="1488336561998" duration="276000" />
     </task>
     <task id="LOCAL-00001" summary="gitbook">
       <created>1487731549546</created>
@@ -401,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488276535123</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gitbook添加章节">
+      <created>1488336614135</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1488336614135</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33083000" />
+    <option name="totallyTimeSpent" value="33314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1092" extended-state="0" />
@@ -839,17 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/1.1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -899,6 +895,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="145">
             <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SUMMARY.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="145">
+            <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
