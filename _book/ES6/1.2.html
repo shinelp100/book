@@ -1,0 +1,486 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Section1.2 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.3.html" />
+    
+    
+    <link rel="prev" href="1.1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../JavaScript高级教程/">
+            
+                <a href="../JavaScript高级教程/">
+            
+                    
+                    Chapter1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../JavaScript高级教程/1.1.html">
+            
+                <a href="../JavaScript高级教程/1.1.html">
+            
+                    
+                    Section1.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../JavaScript高级教程/1.2.html">
+            
+                <a href="../JavaScript高级教程/1.2.html">
+            
+                    
+                    Section1.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../JavaScript高级教程/1.3.html">
+            
+                <a href="../JavaScript高级教程/1.3.html">
+            
+                    
+                    Section1.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Chapter2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="1.1.html">
+            
+                <a href="1.1.html">
+            
+                    
+                    Section1.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="1.2.html">
+            
+                <a href="1.2.html">
+            
+                    
+                    Section1.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1.3.html">
+            
+                <a href="1.3.html">
+            
+                    
+                    Section1.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Section1.2</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>1&#x3001;&#x652F;&#x6301;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E2D;&#x7684;&#x8BA1;&#x7B97;&#x540D;&#x79F0;&#x3002;</p>
+<pre><code>ES6
+    let obj = {
+        foo: &quot;bar&quot;,
+        [ &quot;baz&quot; + quux() ]: 42
+    }
+
+ES5
+    var obj = {
+        foo: &quot;bar&quot;
+    };
+    obj[ &quot;baz&quot; + quux() ] = 42;
+</code></pre><p>&#x652F;&#x6301;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x8868;&#x793A;&#x6CD5;&#xFF0C;&#x7528;&#x4E8E;&#x5E38;&#x89C4;&#x51FD;&#x6570;&#x548C;&#x751F;&#x6210;&#x51FD;&#x6570;&#x3002;    </p>
+<pre><code>ES6
+    obj = {
+        foo (a, b) {
+            &#x2026;
+        },
+        bar (x, y) {
+            &#x2026;
+        },
+        *quux (x, y) {
+            &#x2026;
+        }
+    } 
+
+    ES5
+        obj = {
+            foo: function (a, b) {
+                &#x2026;
+            },
+            bar: function (x, y) {
+                &#x2026;
+            },
+            //  quux: no equivalent in ES5
+            &#x2026;
+        };
+</code></pre><p>&#x5728;&#x5206;&#x914D;&#x671F;&#x95F4;&#x5C06;&#x6570;&#x7EC4;&#x76F4;&#x89C2;&#x548C;&#x7075;&#x6D3B;&#x5730;&#x89E3;&#x6784;&#x4E3A;&#x5355;&#x4E2A;&#x53D8;&#x91CF; </p>
+<pre><code>    ES6
+        var list = [ 1, 2, 3 ]
+        var [ a, , b ] = list
+        [ b, a ] = [ a, b ]
+
+        var { op, lhs, rhs } = getASTNode()
+
+        var { op: a, lhs: { op: b }, rhs: c } = getASTNode()
+
+        var list = [ 7, 42 ]
+        var [ a = 1, b = 2, c = 3, d ] = list
+        a === 7
+        b === 42
+        c === 3
+        d === undefined
+
+        function f ([ name, val ]) {
+            console.log(name, val)
+        }
+        function g ({ name: n, val: v }) {
+            console.log(n, v)
+        }
+        function h ({ name, val }) {
+            console.log(name, val)
+        }
+        f([ &quot;bar&quot;, 42 ])
+        g({ name: &quot;foo&quot;, val:  7 })
+        h({ name: &quot;bar&quot;, val: 42 })
+
+    ES5
+        var list = [ 1, 2, 3 ];
+        var a = list[0], b = list[2];
+        var tmp = a; a = b; b = tmp;
+
+        var tmp = getASTNode();
+        var op  = tmp.op;
+        var lhs = tmp.lhs;
+        var rhs = tmp.rhs;
+
+        var tmp = getASTNode();
+        var a = tmp.op;
+        var b = tmp.lhs.op;
+        var c = tmp.rhs;
+
+        var list = [ 7, 42 ];
+        var a = typeof list[0] !== &quot;undefined&quot; ? list[0] : 1;
+        var b = typeof list[1] !== &quot;undefined&quot; ? list[1] : 2;
+        var c = typeof list[2] !== &quot;undefined&quot; ? list[2] : 3;
+        var d = typeof list[3] !== &quot;undefined&quot; ? list[3] : undefined;
+        a === 7;
+        b === 42;
+        c === 3;
+        d === undefined;
+
+        function f (arg) {
+            var name = arg[0];
+            var val  = arg[1];
+            console.log(name, val);
+        };
+        function g (arg) {
+            var n = arg.name;
+            var v = arg.val;
+            console.log(n, v);
+        };
+        function h (arg) {
+            var name = arg.name;
+            var val  = arg.val;
+            console.log(name, val);
+        };
+        f([ &quot;bar&quot;, 42 ]);
+        g({ name: &quot;foo&quot;, val:  7 });
+        h({ name: &quot;bar&quot;, val: 42 });
+</code></pre><p>&#x652F;&#x6301;&#x6A21;&#x5757;&#x7684;&#x8F93;&#x5165;&#x8F93;&#x51FA;(&#x652F;&#x6301;&#x4ECE;/&#x5411;&#x6CA1;&#x6709;&#x5168;&#x5C40;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x6C61;&#x67D3;&#x7684;&#x6A21;&#x5757;&#x5BFC;&#x51FA;/&#x5BFC;&#x5165;&#x503C;)</p>
+<pre><code> ES6
+    //  lib/math.js
+    export function sum (x, y) { return x + y }
+    export var pi = 3.141593
+
+    //  someApp.js
+    import * as math from &quot;lib/math&quot;
+    console.log(&quot;2&#x3C0; = &quot; + math.sum(math.pi, math.pi))
+
+    //  otherApp.js
+    import { sum, pi } from &quot;lib/math&quot;
+    console.log(&quot;2&#x3C0; = &quot; + sum(pi, pi))
+
+ ES5   
+     //  lib/math.js
+     LibMath = {};
+     LibMath.sum = function (x, y) { return x + y };
+     LibMath.pi = 3.141593;
+
+     //  someApp.js
+     var math = LibMath;
+     console.log(&quot;2&#x3C0; = &quot; + math.sum(math.pi, math.pi));
+
+     //  otherApp.js
+     var sum = LibMath.sum, pi = LibMath.pi;
+     console.log(&quot;2&#x3C0; = &quot; + sum(pi, pi));
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.1.html" class="navigation navigation-prev " aria-label="Previous page: Section1.1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.3.html" class="navigation navigation-next " aria-label="Next page: Section1.3">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Section1.2","level":"1.3.2","depth":2,"next":{"title":"Section1.3","level":"1.3.3","depth":2,"path":"ES6/1.3.md","ref":"ES6/1.3.md","articles":[]},"previous":{"title":"Section1.1","level":"1.3.1","depth":2,"path":"ES6/1.1.md","ref":"ES6/1.1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ES6/1.2.md","mtime":"2017-02-28T07:28:32.623Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-01T03:11:43.894Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
