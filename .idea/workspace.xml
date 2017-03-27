@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2851fc8d-af2a-4b51-8d51-ac30eb55dbed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/1.1.md" afterPath="$PROJECT_DIR$/JavaScript高级教程/1.1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/1.2.md" afterPath="$PROJECT_DIR$/JavaScript高级教程/1.2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/1.3.md" afterPath="$PROJECT_DIR$/JavaScript高级教程/1.3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript高级教程/1.4.md" afterPath="$PROJECT_DIR$/JavaScript高级教程/1.4.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +23,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="520">
-                <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+                <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -37,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/js方法库/第一节.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="812">
+              <first_editor relative-caret-position="665">
                 <caret line="28" column="4" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="4" />
                 <folding />
               </first_editor>
@@ -63,8 +61,8 @@
         <entry file="file://$PROJECT_DIR$/JavaScript高级教程/1.4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-886">
-                <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <first_editor relative-caret-position="448">
+                <caret line="139" column="34" lean-forward="true" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,7 +88,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="578">
-                <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+                <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -103,7 +101,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="667">
-                <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+                <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -141,8 +139,8 @@
         <entry file="file://$PROJECT_DIR$/ES6/1.3.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1189">
-                <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <first_editor relative-caret-position="622">
+                <caret line="45" column="3" lean-forward="false" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -165,7 +163,6 @@
         <option value="$PROJECT_DIR$/_book/search_index.json" />
         <option value="$PROJECT_DIR$/chapter1/1.1.md" />
         <option value="$PROJECT_DIR$/ES6/README.md" />
-        <option value="$PROJECT_DIR$/JavaScript高级教程/1.4.md" />
         <option value="$PROJECT_DIR$/网络是怎么连接的/README.md" />
         <option value="$PROJECT_DIR$/网络是怎么连接的/第一节.md" />
         <option value="$PROJECT_DIR$/vue2/README.md" />
@@ -179,6 +176,7 @@
         <option value="$PROJECT_DIR$/JavaScript高级教程/1.1.md" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/1.2.md" />
         <option value="$PROJECT_DIR$/JavaScript高级教程/1.3.md" />
+        <option value="$PROJECT_DIR$/JavaScript高级教程/1.4.md" />
       </list>
     </option>
   </component>
@@ -393,7 +391,7 @@
       <workItem from="1490179359516" duration="445000" />
       <workItem from="1490232117155" duration="3967000" />
       <workItem from="1490317371760" duration="9049000" />
-      <workItem from="1490577748865" duration="4953000" />
+      <workItem from="1490577748865" duration="8191000" />
     </task>
     <task id="LOCAL-00001" summary="gitbook">
       <created>1487731549546</created>
@@ -549,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490345525748</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="JavaScript高级编程">
+      <created>1490582769656</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1490582769656</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79326000" />
+    <option name="totallyTimeSpent" value="82564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -615,7 +620,8 @@
     <MESSAGE value="gitbook添加章节" />
     <MESSAGE value="gitbook  JavaScript 语言精粹笔记" />
     <MESSAGE value="网络是怎么连接的第一节" />
-    <option name="LAST_COMMIT_MESSAGE" value="网络是怎么连接的第一节" />
+    <MESSAGE value="JavaScript高级编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript高级编程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1050,17 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js方法库/第一节.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="812">
-            <caret line="28" column="4" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue2/第一节.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1072,28 +1067,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/1.3.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1189">
-            <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript高级教程/1.1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="578">
-            <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+            <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1109,7 +1087,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="667">
-            <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1126,7 +1104,35 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="520">
-            <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+            <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ES6/1.3.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="622">
+            <caret line="45" column="3" lean-forward="false" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js方法库/第一节.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="665">
+            <caret line="28" column="4" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1142,8 +1148,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-886">
-            <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <first_editor relative-caret-position="448">
+            <caret line="139" column="34" lean-forward="true" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />
