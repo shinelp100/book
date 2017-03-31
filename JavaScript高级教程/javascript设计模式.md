@@ -41,3 +41,34 @@
        ...
        .('stop',function(){...});
        Function.prototype.method用于为类添加新方法
+       
+       
+       
+###用注释描述接口
+       /*
+       interface composite {
+            function add(child);
+            function remove(child);
+            function getChild(index);
+       }
+       */
+       /*
+       interface FormItem {
+            function save();
+       }
+       */
+       var CompositeForm = function(id,method,action){
+            ...
+       }
+       CompositeForm.prototype.add == function(child){
+            ...
+       }
+       CompositeForm.prototype.remove == function(child){
+            ...
+      }
+      CompositeForm.prototype.getChild == function(index){
+            ...
+      }
+      CompositeForm.prototype.save == function(){
+            ...
+      }        
