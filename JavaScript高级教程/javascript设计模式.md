@@ -39,8 +39,30 @@
        var Anim = function(){...};
        Anim.method('start',function(){...}).
        ...
-       .('stop',function(){...});
+       .method('stop',function(){...});
        Function.prototype.method用于为类添加新方法
+       
+实例：
+
+        /*定义一个全局的对象*/
+            Function.prototype.method =function(name,fn){
+                this.prototype[name] = fn;
+                return this;
+            };
+            var addMethod = function(name,sex){
+                this.name = name;
+                this.sex = sex;
+                console.log(this);
+            };
+            addMethod.method('getName',function(){
+                console.log(this);
+            }).method('getSex',function(){
+              console.log(this);
+            });
+        
+            var lw = new addMethod('lw','男');
+            lw.getName();
+
        
        
        
