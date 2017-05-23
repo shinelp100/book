@@ -26,3 +26,77 @@ webpack 的目标是，让 webpack 聚焦于项目中的所有资源(asset)，�
 
 
 - 构建目标(Targets)
+    - 告诉 webpack 这个程序的目标环境是什么
+    
+- 模块解析(Module Resolution)
+    - resolver 是一个库(library)，用于帮助找到模块的绝对路径。一个模块可以作为另一个模块的依赖模块，然后被后者引用
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+- webpack devServer
+    + 1、安装npm install --save-dev  open-browser-webpack-plugin（打开浏览器页面插件） && npm install --save-dev webpack-dev-server（安装webpack-dev-server）
+    + 2、配置package.json文件："server": "webpack-dev-server"
+    + 3、配置webpack.config.js文件 配置配置项和 引入插件
+    + 4、npm run server;  
+    
+    
+- webpack Watch
+    + 执行webpack --watch 实现文件的实时编译
+    + 或是在webpack.config.js中添加watch:true,
+    watchOptions: {
+            ignored: /node_modules/,(忽略node_modules对于某些系统，监听大量文件系统会导致大量的 CPU 或内存占用。这个选项可以排除一些巨大的文件夹)
+            poll: 1000 //每秒检查一次变动
+        },
+    
+    
+    
+- context
+    + 基础目录，绝对路径，用于从配置中解析入口起点(entry point)和 loader
+    
+- path.resolve
+    + 这些选项能设置模块如何被解析。
+    
+- 打包后的文件（js 、css）自动添加到html中
+    + npm install --save-dev html-webpack-plugin
+    
+    
+    
+    
+    
+    
+    
+- webpack 打包后代码解析
+    + 上面编译出来的代码主要包含两个部分：Runtime，模块。上半部分就是Runtime，作用是保证模块顺序加载和运行。下半部分是我们的JS代码，包裹了一个函数，也就是模块
+    ```
+    (function(modules) {
+            // Runtime
+        })([
+            // 模块数组
+        ])
+    ```
+    
+    
+    
+    
+- webpack编译less文件报错（cannot find module "less"）
+    + npm install --save-dev less-loader (安装less-loader)
+    + npm install less less-loader （安装less 防止node不认识less文件）
+    + npm install --save-dev file-loader 
+    
