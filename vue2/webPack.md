@@ -100,3 +100,44 @@ webpack 的目标是，让 webpack 聚焦于项目中的所有资源(asset)，�
     + npm install less less-loader （安装less 防止node不认识less文件）
     + npm install --save-dev file-loader 
     
+    
+    
+- node安装说明
+    + npm install可以一条命令同时安装多个包, 包之间用空格分隔. 包会被安装进node_modules目录中
+    + --save-dev会把安装的包和版本号记录到package.json中的devDependencies对象中, 还有一个--save, 会记录到dependencies对象中, 它们的区别, 我们可以先简单的理解为打包工具和测试工具用到的包使用--save-dev存到devDependencies, 比如eslint, webpack.
+    
+    
+- webpack 常用插件一键安装
+    + npm install webpack webpack-dev-server html-webpack-plugin html-loader css-loader style-loader file-loader url-loader --save-dev
+    
+- webpack 支持es6（换ES2015/ES2016/ES2017到ES5, 是的, 不只ES6哦. ）
+    + npm install babel-core babel-preset-env babel-loader --save-dev
+    +　npm install babel-preset-es2015 --save-dev
+    
+- 配置favicon (webpack)
+
+
+
+- 编译前清空dist目录
+    + npm install rimraf --save-dev
+    + package.json 
+        ```
+      {
+        "scripts": {
+          "build": "rimraf dist && webpack -p --env.config production"
+        },
+      }
+        ```
+        
+        
+- file-loader
+    + file-loader的主要功能是：把源文件迁移到指定的目录（可以简单理解为从源文件目录迁移到build目录），并返回新文件的路径（简单拼接而成）。
+    ```
+    [ext]：文件的后缀名，示例为'jpg'。
+    [name]：文件名本身，示例为'login-bg'。
+    [path]：相对于当前执行webpack命令的目录的相对路径（不含文件名本身），示例为'src/public-resource/imgs/'。这个参数我感觉用处不大，除非你想把迁移后的文件放回源文件的目录或其子目录里。
+    [hash]：源文件内容的hash，用于缓存解决方案。
+```    
+    
+
+    
