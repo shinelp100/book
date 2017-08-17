@@ -27,4 +27,6 @@
     * [安装配置less](phpstorm中插件的配置/less在phpstorm的配置.md)        
     * [安装配置babel](phpstorm中插件的配置/babel在phpstorm中的配置.md)        
 * [win常见命令](win常见命令/README.md)
-    * [win常见命令](win常见命令/win常见命令.md)        
+    * [win常见命令](win常见命令/win常见命令.md)     
+* [Phaser Editor](Phaser Editor/README.md)
+    * [PhaserEditor使用简介](Phaser Editor/PhaserEditor使用简介.md)         
