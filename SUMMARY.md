@@ -29,4 +29,4 @@
 * [win常见命令](win常见命令/README.md)
     * [win常见命令](win常见命令/win常见命令.md)     
 * [Phaser Editor](Phaser Editor/README.md)
-    * [PhaserEditor使用简介](Phaser Editor/PhaserEditor使用简介.md)         
+    * [Phaser Editor](Phaser Editor/PhaserEditor使用简介.md)         
