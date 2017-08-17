@@ -56,6 +56,10 @@
 ![Alt text](14.jpg)  
 ![Alt text](15.jpg)  
 ![Alt text](16.jpg)  
+
+    添加场景自动生成的脚本到pack.josn中  然后 this.load.pack("level", "assets/pack.json");加载包
+    this.scene = new Scene1(this.game); 添加场景对象
+![Alt text](17.jpg)  
     
     
   
