@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2851fc8d-af2a-4b51-8d51-ac30eb55dbed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/PhaserEditor使用简介.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Phaser Editor/phaserJs.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/1.png" afterPath="$PROJECT_DIR$/PhaserEditor/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/10.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/11.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/12.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/13.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/14.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/15.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/16.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/16.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/17.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/17.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/2.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/3.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/4.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/5.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/6.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/7.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/8.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/9.jpg" afterPath="$PROJECT_DIR$/PhaserEditor/9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/PhaserEditor使用简介.md" afterPath="$PROJECT_DIR$/PhaserEditor/PhaserEditor使用简介.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/README.md" afterPath="$PROJECT_DIR$/PhaserEditor/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Phaser Editor/phaserJs.md" afterPath="$PROJECT_DIR$/PhaserEditor/phaserJs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rem布局方案/第一节.md" afterPath="$PROJECT_DIR$/rem布局方案/intro.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rem布局方案/intro.md" afterPath="$PROJECT_DIR$/rem布局方案/intro.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,42 +80,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intro.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="intro.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rem布局方案/intro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="232">
-                <caret line="8" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <first_editor relative-caret-position="38">
+                <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
                 <folding>
-                  <marker date="1516591993890" expanded="true" signature="3589:3699" ph="..." />
-                  <marker date="1516591993890" expanded="true" signature="3613:3699" ph="..." />
+                  <marker date="1516592406871" expanded="true" signature="3686:3796" ph="..." />
+                  <marker date="1516592406871" expanded="true" signature="3710:3796" ph="..." />
                 </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="531">
-                <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SUMMARY.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="618">
-                <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -218,6 +150,7 @@
         <option value="$PROJECT_DIR$/SUMMARY.md" />
         <option value="$PROJECT_DIR$/rem布局方案/第一节.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/rem布局方案/intro.md" />
       </list>
     </option>
   </component>
@@ -440,7 +373,7 @@
       <workItem from="1503276275154" duration="701000" />
       <workItem from="1503540697959" duration="905000" />
       <workItem from="1503899525543" duration="9020000" />
-      <workItem from="1516587691917" duration="4556000" />
+      <workItem from="1516587691917" duration="4711000" />
     </task>
     <task id="LOCAL-00001" summary="gitbook">
       <created>1487731549546</created>
@@ -663,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193269000" />
+    <option name="totallyTimeSpent" value="193424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1219,37 +1152,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rem布局方案/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PhaserEditor/PhaserEditor使用简介.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="319">
             <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="19" />
             <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rem布局方案/intro.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="232">
-            <caret line="8" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-            <folding>
-              <marker date="1516591993890" expanded="true" signature="3589:3699" ph="..." />
-              <marker date="1516591993890" expanded="true" signature="3613:3699" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1263,9 +1171,34 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="531">
+          <first_editor relative-caret-position="754">
             <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rem布局方案/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rem布局方案/intro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+            <folding>
+              <marker date="1516592406871" expanded="true" signature="3686:3796" ph="..." />
+              <marker date="1516592406871" expanded="true" signature="3710:3796" ph="..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
