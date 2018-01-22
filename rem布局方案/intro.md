@@ -48,7 +48,8 @@
     ```xlt
         简单的理解，viewport是严格等于浏览器的窗口。在桌面浏览器中，viewport就是浏览器窗口的宽度高度。
         但在移动端设备上就有点复杂。
-        移动端的viewport太窄，为了能更好为CSS布局服务，所以提供了两个viewport:虚拟的viewportvisualviewport和布局的viewportlayoutviewport。
+        移动端的viewport太窄，为了能更好为CSS布局服务，所以提供了两个viewport:虚拟的viewportvisualviewport
+        和布局的viewportlayoutviewport。
     ```
     [Stack Overflow上对这两个基本概念做了详细的解释。](https://stackoverflow.com/questions/6333927/difference-between-visual-viewport-and-layout-viewport)
     
@@ -60,12 +61,13 @@
     
     + 设备独立像素(density-independent pixel)
     ```xlt
-       设备独立像素也称为密度无关像素，可以认为是计算机坐标系统中的一个点，这个点代表一个可以由程序使用的虚拟像素(比如说CSS像素)，
-       然后由相关系统转换为物理像素。
+       设备独立像素也称为密度无关像素，可以认为是计算机坐标系统中的一个点，这个点代表一个可以由程序使用的虚拟像素
+       (比如说CSS像素)，然后由相关系统转换为物理像素。
     ```
     + CSS像素
     ```xlt
-        CSS像素是一个抽像的单位，主要使用在浏览器上，用来精确度量Web页面上的内容。一般情况之下，CSS像素称为与设备无关的像素(device-independent pixel)，简称DIPs。
+        CSS像素是一个抽像的单位，主要使用在浏览器上，用来精确度量Web页面上的内容。一般情况之下，
+        CSS像素称为与设备无关的像素(device-independent pixel)，简称DIPs。
     ```
     + 屏幕密度
     ```xlt
@@ -76,18 +78,20 @@
     ```xlt
        设备像素比简称为dpr，其定义了物理像素和设备独立像素的对应关系。它的值可以按下面的公式计算得到：
        设备像素比 ＝ 物理像素 / 设备独立像素
-       在JavaScript中，可以通过window.devicePixelRatio获取到当前设备的dpr。而在CSS中，可以通过-webkit-device-pixel-ratio，-webkit-min-device-pixel-ratio和 
-       -webkit-max-device-pixel-ratio进行媒体查询，对不同dpr的设备，做一些样式适配(这里只针对webkit内核的浏览器和webview)。
+       在JavaScript中，可以通过window.devicePixelRatio获取到当前设备的dpr。而在CSS中，可以通过-webkit-device-pixel-ratio，
+       -webkit-min-device-pixel-ratio和-webkit-max-device-pixel-ratio进行媒体查询，
+       对不同dpr的设备，做一些样式适配(这里只针对webkit内核的浏览器和webview)。
        dip或dp,（device independent pixels，设备独立像素）与屏幕密度有关。dip可以用来辅助区分视网膜设备还是非视网膜设备。
     ```
     ![Alt text](1.png) 
-    iPhone6的设备宽度和高度为375px * 667px,可以理解为设备的独立像素；而其dpr为2，根据上面公式，我们可以很轻松得知其物理像素为750px * 1334px。
+    iPhone6的设备宽度和高度为375px * 667px,可以理解为设备的独立像素；而其dpr为2，根据上面公式，
+    我们可以很轻松得知其物理像素为750px * 1334px。
     
  - 如何实现rem布局
     + meta标签
     ```xlt
-       <meta>标签有很多种，而这里要着重说的是viewport的meta标签，其主要用来告诉浏览器如何规范的渲染Web页面，而你则需要告诉它视窗有多大。在开发移动端页面，
-       我们需要设置meta标签如下：
+       <meta>标签有很多种，而这里要着重说的是viewport的meta标签，其主要用来告诉浏览器如何规范的渲染Web页面，
+       而你则需要告诉它视窗有多大。在开发移动端页面，我们需要设置meta标签如下：
        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
        代码以显示网页的屏幕宽度定义了视窗宽度。网页的比例和最大比例被设置为100%。
     ```
@@ -95,7 +99,8 @@
     ```xlt
        在W3C规范中是这样描述rem的:
        font size of the root element.
-       简单的理解，rem就是相对于根元素<html>的font-size来做计算。而我们的方案中使用rem单位，是能轻易的根据<html>的font-size计算出元素的盒模型大小。
+       简单的理解，rem就是相对于根元素<html>的font-size来做计算。而我们的方案中使用rem单位，
+       是能轻易的根据<html>的font-size计算出元素的盒模型大小。
        而这个特色对我们来说是特别的有益处。 
     ```
     
@@ -107,8 +112,9 @@
         + lib-flexible使用方法
         ```xlt
             <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/flexible.js"></script>
-            强烈建议对JS做内联处理，在所有资源加载之前执行这个JS。执行这个JS后，会在<html>元素上增加一个data-dpr属性，以及一个font-size样式。
-            JS会根据不同的设备添加不同的data-dpr值，比如说2或者3，同时会给html加上对应的font-size的值，比如说75px。
+            强烈建议对JS做内联处理，在所有资源加载之前执行这个JS。执行这个JS后，会在<html>元素上增加一个data-dpr属性，
+            以及一个font-size样式。JS会根据不同的设备添加不同的data-dpr值，比如说2或者3，同时会给html加
+            上对应的font-size的值，比如说75px。
         ```
         + lib-flexible做了什么？
         ```xlt
