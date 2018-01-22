@@ -32,5 +32,5 @@
     * [svg](svg/svg描边.md)      
 * [rem布局方案](rem布局方案/README.md)
     * [rem布局方案](rem布局方案/第一节.md)    
-* [Phaser Editor](Phaser Editor/README.md)
-    * [PhaserEditor使用简介](Phaser Editor/PhaserEditor使用简介.md)         
+* [Phaser Editor](PhaserEditor/README.md)
+    * [PhaserEditor使用简介](PhaserEditor/PhaserEditor使用简介.md)         
